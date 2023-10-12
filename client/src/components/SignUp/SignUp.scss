@@ -1,0 +1,106 @@
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+  /* div{
+    background-color: blue;
+    width: 100%;
+  
+  } */
+  .signup-box {
+    width: 800px;
+    height: 667px;
+    margin: auto;
+    background-color: rgb(220, 222, 224);
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  
+  .login-box {
+    width: 764px;
+    height: 352px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(83, 149, 210);
+    background: transparent;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 7px;
+  }
+  
+  h4 {
+    text-align: center;
+    margin: 18px 0px;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 6px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    border: none; /* Remove all borders */
+    outline: none; /* Remove the focus outline */
+    background: transparent; /* Remove the background color */
+    border-bottom: 1px solid #ccc; /* Add a bottom border (you can customize the color) */
+    font-size: 16px;
+    /* width: 234%;
+    padding: 14px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none; */
+  }
+  input[type="button"] {
+    width: 200px;
+    height: 56px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+  }
+  input[type="button"]:hover {background-color: #3e8e41}
+  
+  input[type="button"]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(22, 117, 50);
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+    
+  }
+  .para-2 a:hover{
+    color: red;
+  }
+  
+  
+  
+  

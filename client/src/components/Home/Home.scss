@@ -1,0 +1,23 @@
+.home-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0; /* Color for the left partition */
+    padding: 40px;
+  }
+  
+  .home-div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .home-div p {
+    background-color: #3498db; /* Color for the right partition */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .home-div h1 {
+    margin-top: 20px;
+  }
+  

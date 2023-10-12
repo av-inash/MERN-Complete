@@ -1,0 +1,71 @@
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .box h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the get-in-touch section */
+  .get-in-touch {
+    text-align: center;
+    padding: 20px;
+    margin: 54px auto;
+    /* border: 2px solid black; */
+    width: 60%;
+    background: transparent;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 4px 0px;
+    /* text-align: left; */
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+    /* resize: none; */
+    width: 97%;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
